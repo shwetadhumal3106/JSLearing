@@ -1,0 +1,55 @@
+console.log("-----------Reverse the string--------------");
+
+var reverseString=function(str)
+{
+
+    //index=11 condition>=0--
+    var reverse="";
+ for (let index = str.length; index >=0; index--) 
+ {
+       var charAt=str.charAt(index);
+         reverse = reverse + charAt;
+    
+ }
+//  return reverse;
+console.log(reverse);
+
+
+}
+
+var result=reverseString("Do it any how");
+console.log(`Reverse String is: ${result}`);
+
+
+
+var str="shweta";
+var reverse="";
+
+for(let i=str.length; i>=0; i--){
+    charat=str.charAt(i);
+    reverse=reverse+charat;
+}
+console.log(reverse);
+
+
+var value=function(str){
+    var reverse1="";
+    for(let i=str.length; i>=0; i--){
+        var charat1 = str.charAt(i);
+        reverse1 = reverse1 + charat1;
+    }
+    return reverse1;
+
+}
+
+var result=value("Ganesh");
+console.log(result);
+
+const array=[1,2,3,4,5,6,7]
+const arraystr="";
+
+for(let i=array.length; i>=0; i--){
+   // arrayAt=array.charAt(i);
+    arraystr=arraystr+arrayAt;
+}
+console.log(arraystr);

@@ -29,6 +29,6 @@ for (const element of array) {
     setOfElements.add(element); 
 }
 // console.table(setOfElements);
-//how to remove douplicat element in array using spred
-const arrayOfUniqueElements =  [...new Set(array)];
-console.log(arrayOfUniqueElements);
+
+
+

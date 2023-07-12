@@ -1,22 +1,5 @@
-var reverseString=function(str)
-{
 
-    //index=11 condition>=0--
-    var reverse="";
- for (let index = str.length; index >=0; index--) 
- {
-       var charAt=str.charAt(index);
-         reverse = reverse + charAt;
-    
- }
- return reverse;
-
-
-}
-
-var result=reverseString("Do it any how");
-console.log(`Reverse String is: ${result}`);
-
+console.log("------------Count the spaces----------------");
 var reverseStr=function(str)
 {
 
@@ -40,6 +23,7 @@ var reverseStr=function(str)
 var result=reverseStr("Do it any how");
 console.log(`Reverse String is: ${result}`);
 
+console.log("----------Count the length------------------");
 var str="I am Angular champ";
 var count=0;
 for(let index=0; index<str.length;index++)

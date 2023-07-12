@@ -36,7 +36,7 @@ function sayHi(arg)
     }
     return isEven;
 }
- console.log(isEven);
+ console.log(isEven)
  let result=sayHi(10);
   console.log(result);
 
